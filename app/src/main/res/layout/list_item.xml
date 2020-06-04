@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/text1"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="2sp"
+        app:autoSizeMaxTextSize="20sp"
+        app:autoSizeStepGranularity="2sp"
+        android:layout_weight="1"
+        android:textAlignment="gravity"
+        android:layout_gravity="center"
+        android:gravity="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/text2"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="2sp"
+        app:autoSizeMaxTextSize="20sp"
+        app:autoSizeStepGranularity="2sp"
+        android:layout_weight="1"
+        android:textAlignment="gravity"
+        android:layout_gravity="center"
+        android:gravity="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/text3"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="2sp"
+        app:autoSizeMaxTextSize="20sp"
+        app:autoSizeStepGranularity="2sp"
+        android:layout_weight="1"
+        android:textAlignment="gravity"
+        android:layout_gravity="center"
+        android:gravity="center" />
+
+
+
+
+</LinearLayout>

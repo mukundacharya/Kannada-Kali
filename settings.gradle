@@ -1,0 +1,2 @@
+rootProject.name='Kannada Kali'
+include ':app'
